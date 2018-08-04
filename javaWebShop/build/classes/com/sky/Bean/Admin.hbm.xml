@@ -1,0 +1,21 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.sky.Bean">
+	<class name="Admin" table="admin">
+		<id name="id" column="admin_id">
+			<generator class="increment" />
+		</id>
+		<property name="admin_username" />
+		<property name="admin_passwd" />
+		<property name="admin_image" />
+		<property name="admin_email" />
+		<property name="telephone" />
+		<property name="address" />
+		<property name="status" />
+		<property name="validateCode" />
+		<property name="registerTime" />
+		<one-to-one name="person" class="Person" cascade="all"  lazy="false"/>
+				
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.sup-wid{
+	width: 1188px;
+	margin: 0 auto;
+    }
+.nav {
+	background-color: #90b830;
+	height: 42px;
+	line-height: 42px;
+	font-size: 14px;
+	color: #FFF;
+	font-family: "Microsoft YaHei", "微软雅黑";
+}
+.nav a {
+	color: #FFF;
+	font-size: 14px;
+	font-family: "Microsoft YaHei", "微软雅黑";
+}
+
+.company-profile{
+	border:#efefef 1px solid;
+	height:240px;
+	overflow:hidden;
+	width:100%;
+	
+	}
+.company-profile .logo{
+	float:left;
+	border-right:#efefef 1px solid;
+	height:240px;
+	width:300px;
+	}	
+.company-profile .logo img{
+	
+	 }
+.text-introduce{ 
+     background:#f9f7f7;
+	 float: right;
+	 width:826px;
+	 height:200px;
+	 padding:20px 30px;
+	 }
+.text-introduce span{
+	color:#f37b1d;
+	font-size:20px;
+	line-height:50px;
+	margin-left:30px;
+	font-family:"微软雅黑";
+
+	}
+.text-introduce p{
+	font-size:13px;
+	line-height:24px;
+	text-indent:2em;
+	margin:0 20px ;
+	}
+	
+.sup-wid .mainbody{ width:100%; overflow:hidden;margin-top:20px;}
+.product-categories{ 
+    width:190px;
+	float:left;
+	border:
+	}
+
+.product-categories .title{
+	background:#90b830;
+	font-family:"微软雅黑";
+	font-size:14px;
+	height:32px;
+	line-height:32px;
+	color:#FFF;
+	padding-left:12px;
+	}	
+.product-categories .see-all{
+	border:#e5e5e5 1px solid;
+   
+   	}	
+.mainbody .product-categories .ck a{ 
+    background:#f9f9f9; 
+	height:32px;
+    line-height:32px; 
+	font-weight:bold; 
+	padding-left:16px; 
+	display:block; 
+	color:#3c3c3c;
+	}	
+.product-categories .fenlei li a{
+	height:27px;
+	line-height:27px;
+	padding-left:25px; 
+	display:block;
+}
+.product-categories .fenlei .current{
+	border-top:#e5e5e5 1px solid;
+	background:#f9f9f9;
+		
+	}	
+.product-categories .fenlei .current i{
+	background:url(images/xiala.png) no-repeat; 
+	width:11px; 
+	height:11px;
+	display:inline-block; 
+	vertical-align:middle;
+	padding-right:5px;
+	}	
+	
+.sup-wid .mainbody .new-pro{
+	float: right;
+	width: 973px;
+	margin-bottom:40px;
+	}	
+.new-pro .tit{
+	background:#e8e8e8;
+	border-top:#ff7000 1px solid;
+	padding-left:24px;
+	
+	}	
+.new-pro .tit a{
+	height:35px;
+	line-height:35px;
+	font-size:16px;
+	font-family:"微软雅黑";
+	}
+.new-pro .item4line1{
+	width:100%;
+	overflow:hidden;
+	
+	
+	}	
+.new-pro .item4line1 ul{
+	margin-top:20px;
+	float:left;
+	margin-right:23px;
+	}
+.new-pro .item4line1 ul li img{
+	border:#d5d5d5 1px solid;
+	}
+.new-pro .item4line1 ul li{
+	width:225px;
+	margin-bottom:15px;
+	clear:both;
+	}
+.new-pro .item4line1 ul li.price{
+	height:30px;
+	line-height:30px;
+	}
+.new-pro .item4line1 ul li strong{
+	color:#ff1100;
+	font-family:"微软雅黑";
+	font-size:18px;
+	float:left;
+	}	
+.new-pro .item4line1 ul li span{
+	float:right;
+	display:inline-block;
+}
+.product-categories .sidebar2{ margin-top:20px;}
+.product-categories .sidebar2 .see-all{
+	padding:8px;
+	}
+.see-all .item-recommend li a{
+	line-height:20px;
+	}	
+.see-all .item-recommend .price{
+	line-height:35px;
+	}
+.see-all .item-recommend strong{
+	color:#F00;
+	font-size:16px;
+	}
+	
+.pr_fenlei {
+	background-color: #e9f8c6;
+	line-height: 30px;
+	padding-left: 25px;
+}
+.pr_fenlei a {
+	font-weight: bold;
+	color: #333;
+
+}

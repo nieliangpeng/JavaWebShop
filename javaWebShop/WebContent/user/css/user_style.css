@@ -1,0 +1,587 @@
+.user_center{ margin:20px 0px;}
+.user_center .left_style{ width:200px;}
+.user_center .left_style .user_portrait {position: relative}
+.user_center .left_style .user_Head a.btn_link {
+	display: block;
+	position: absolute;
+	height: 90px;
+	width: 90px;
+	top: 6px;
+	left: 63px;
+	z-index: 12
+}
+.user_center .left_style .user_Head .background_img {
+	background: url(../images/d_toux_img_03.png) no-repeat;
+	width: 198px;
+	height: 101px;
+	position: relative;
+	z-index: 11;
+	top: 0px;
+}
+.user_center .left_style .user_Head img {
+	position: absolute;
+	z-index: -1;
+	width: 90px;
+	height: 90px;
+	top: 6px;
+	left: 55px;
+}
+.user_center .left_style .user_Head .user_name {
+	text-align: center;
+	line-height: 24px;
+	color: #666
+}
+.user_center .left_style .user_Head .user_name a {
+	color: #666;
+	margin: 0px 5px;
+}
+.user_center .left_style .user_Head .user_name .name {
+	font-size: 16px;
+	color: #C03;
+	font-family: "Microsoft YaHei"
+}
+.menu_style {
+	border: 1px solid #ddd;
+	box-shadow: 0px 0px 5px #ddd;
+	-webkit-box-shadow: 0px 0px 5px #e2e1e1;
+	-moz-box-shadow: 0px 0px 5px #e2e1e1;
+}
+.accountSideOption1 {background: #fff;}
+.accountSideOption1 dt {
+	margin: 0;
+	padding: 0 0 0 45px;
+	width: 153px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #ededed;
+	font-size: 14px;
+	border-bottom: 1px #ddd solid;
+	position: relative;
+	cursor:pointer;
+}
+.accountSideOption1 dt .icon_1 {
+	background: url(../images/m_i_1.png) no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 10px;
+	top: 5px
+}
+.accountSideOption1 dt .icon_2 {
+	background: url(../images/m_i_2.png) no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 10px;
+	top: 5px
+}
+.accountSideOption1 dt .icon_3 {
+	background: url(../images/m_i_3.png) no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 10px;
+	top: 5px
+}
+.accountSideOption1 dt .icon_4 {
+	background: url(../images/m_i_4.png) no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 10px;
+	top: 5px
+}
+.accountSideOption1 dd {padding: 6px 0;font-size: 13px;}
+.accountSideOption1 dd ul li {height: 30px;background: none;}
+.accountSideOption1 dd ul li a {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 45px;
+	background: url("../images/liselected.gif") no-repeat scroll 25px center;
+	font-size: 12px;
+	display: block;
+	color: #666;
+}
+.menu_style .user_title {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #90b830;
+	color: #fff;
+	font-size: 18px;
+}
+.menu_style .user_title a{ color:#FFF}
+/****右侧样式属性****/
+.user_center .Notice{ height:30px; padding:5px 0px; line-height:30px; background:#fffbeb; border:1px solid  #ffd800; color: #333333; font-family:"新宋体"; margin-bottom:10px;}
+.user_center .Notice span{ font-weight:bold; color:#090; padding-left:5px;}
+.user_center .right_style{ width:980px;}
+.user_center .right_style .title_Section{ border-bottom:1px solid #ddd; height:40px; line-height:40px; font-size:18px;}
+.user_center .right_style .title_Section span{ border-bottom:3px solid #F30; padding:7px 10px;}
+.info_content .user_info{ height:130px; padding-bottom:10px;}
+.info_content .user_info li{ 
+	float:left;
+	width:176px;
+	text-align:center; 
+	height:120px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color:#F7B51A;
+	margin:0px 10px;
+}
+.info_content .user_info li img{ margin-top:20px;}
+.info_content .user_info li.Balance{ background:#ffa3a3}
+.info_content .user_info li.integral{ background-color:#6ebfda}
+.info_content .user_info li.Order_form{ background-color:#69F}
+.info_content .user_info li.grade{ background-color:#ffa3a3}
+.info_content .user_info li.Favorable{ background-color: #F93}
+.info_content .user_info li.Balance:hover{ background:#F78A8A}
+.info_content .user_info li.integral:hover{ background-color:#56AECC}
+.info_content .user_info li.Order_form:hover{ background-color:#568BF5}
+.info_content .user_info li.grade:hover{ background-color:#EA8181}
+.info_content .user_info li.Favorable:hover{ background-color:#F38920}
+.info_content .user_info li h4{ margin-top:10px}
+.info_content .user_info li a{ display:block; line-height:30px; color:#FFF; font-size:16px}
+/***订单样式属性**/
+.user_info_p_s .left_user_cont {width: 710px;margin-right: 10px;float: left;}
+.user_info_p_s .right_user_recording {width: 240px;float: right}
+.user_info_p_s .us_Orders, .user_info_p_s .us_Orders table {width: 710px;}
+.user_info_p_s .us_Orders .Orders_name {height: 40px;}
+.user_info_p_s .us_Orders .Orders_name .title_name {border-bottom: 1px solid #ddd;}
+.user_info_p_s .us_Orders table tbody tr {height: 100px;border-bottom: 1px dashed #ddd;}
+.user_info_p_s .us_Orders table thead {line-height: 30px;background: #EAEAEA;}
+.user_info_p_s .us_Orders table thead th {padding: 5px 10px;font-size: 14px;text-align:center;}
+.user_info_p_s .us_Orders table tbody tr td {padding: 10px;text-align:center}
+.user_info_p_s .us_Orders table tbody tr td .View{
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	color: #fff;
+    background-color: #F63;
+    border-color: #F63;	
+}
+.user_info_p_s .us_Orders table tbody tr td .View:hover{background-color: #F60 ;}
+.user_info_p_s .us_Orders table tbody tr td.img_link {width: 450px;text-align:left;}
+.user_info_p_s .us_Orders table tbody tr td.img_link .title {
+	display: block;
+	width: 314px;
+	float: left;
+	padding: 10px;
+}
+.user_info_p_s .us_Orders table tbody tr td .img {
+	display: block;
+	width: 80px;
+	padding: 1px;
+	height: 80px;
+	float: left;
+	border: 1px solid #ddd;
+}
+.user_info_p_s .us_Orders table tbody tr td .icon-copy{ float:left; width:32px; height:80px; background:url(../images/icon-copy.png) no-repeat center; padding:0px 10px;}
+.user_info_p_s .us_Orders .Orders_name .title_name .Records {
+	border: 0px;
+	position: relative;
+	top: 10px;
+	background: #FFFFFF;
+	width: 80px;
+	font-size: 16px
+}
+.user_info_p_s .us_Orders .Orders_name .title_name .select {
+	position: relative;
+	top: -10px;
+	padding: 0px 10px;
+	background: #FFFFFF
+}
+.user_info_p_s .us_Orders .Orders_name .title_name .select select {border: 1px solid #ddd;color: #999999;font-family: "新宋体"}
+.user_info_p_s .us_Orders .us_jls {text-align: right;font-size: 14px;padding: 10px;}
+
+/*****记录样式****/
+/*****************浏览记录样式属性*********************/
+.Record_p{ overflow:hidden; position:relative; border:1px solid #ddd   } 
+.Record_p .title_name{ line-height:40px; height:40px; padding:0px 10px; border-bottom:1px  solid #ddd;}
+.Record_p .title_name .name{ font-size:16px}
+.Record_p .hd{ overflow:hidden;  } 
+.Record_p .hd .prev,
+.Record_p .hd .next{ 
+	 position:absolute; 
+	 top:40%;
+	 text-align:center;
+	 overflow:visible;
+	 display:block; 
+	 width:30px; 
+	 height:30px;
+	 cursor:pointer	;
+	 font-size:32px;
+	 font-family:"新宋体";
+	 z-index:5;
+	 color:#ddd;
+} 
+.Record_p .hd .next{ left:0px;  } 
+.Record_p .hd .prev{ right:0px;}
+.Record_p .hd ul{ float:right; overflow:hidden; zoom:1; margin-top:10px;  } 
+.Record_p .hd ul li.on{ background:#f00;  } 
+.Record_p .bd{ padding:25px 0px; margin-left:30px;} 
+.Record_p .bd ul{ overflow:hidden; zoom:1; } 
+.Record_p .bd ul .p_width{ width:180px;}
+.Record_p .bd ul .pic img{ width:170px; height:170px;}
+.Record_p .bd ul li{text-align:left; float:left;display:_inline; }
+.Record_p .bd ul li .title{ height:40px; line-height:18px;} 
+.Record_p .bd ul li .title a{font-family:"新宋体"; color:#333333; display:block; height:36px; line-height:18px; overflow:hidden}
+.Record_p .bd ul li a:hover{color: #FF6600}
+.Record_p .bd ul li .Purchase_info{}
+.Record_p .bd ul li .p_Price{ color:#FF0000; font-weight:bold; font-size:16px; float:left; margin-top:3px;}
+.Record_p .bd ul li .Purchase{ display:block; float:right; border:1px solid  #999999; color:#999999; padding:5px 10px;}
+.Record_p .bd ul li .Purchase:hover{ border:1px solid #F60}
+/******************收藏样式属性*********************/
+.Collections_p .slideGroups{ position:relative}
+.Collections_p .slideGroups .parHd{ height:40px; line-height:40px; font-size:16px; border-bottom:1px solid #ddd;}
+.Collections_p .slideGroups .parHd li{ float:left; height:40px; line-height:40px; padding:0px 20px; border-left:1px solid #ddd; border-top:1px solid #ddd;border-right:1px solid #ddd;cursor:pointer}
+.Collections_p .slideGroups .parHd li.on{ color:#666; background-color:#FFF; border-bottom:1px solid #ffffff;}
+.Collections_p .slideGroups .parBd{}
+.Collections_p .slideGroups .parBd .tempWrap{ }
+.slideGroup .sPrev, .slideGroup .sNext { z-index:1111}
+.Collections_p .slideGroups  .more{ position:absolute; right:10px; top:-45px; font-size:12px; font-family:"新宋体"; z-index:1112}
+#Collect_products .picList .pic img{ width:130px; height:130px}
+#Collect_products .picList .title{ padding:0px 10px; height:40px;}
+.Collect_Products{ margin:20px 0px; position:relative;  width:980px; } 
+.slideGroups .sPrev, 
+.slideGroups .sNext{ 
+	 position:absolute; 
+	 top:40%;
+	 text-align:center;
+	 overflow:visible;
+	 width:30px;
+	 line-height:70px;
+	 height:70px;
+	 font-size:36px;
+	 cursor:pointer	;
+	 font-family:"新宋体";
+	 color:#ddd;
+	 z-index:1111;
+	 border:1px solid #ddd;
+	 background-color:#FFF;
+	 display:none
+} 
+.slideGroups .Collect_Products.hover .sPrev, 
+.slideGroups .Collect_Products.hover .sNext{ display:block}
+.slideGroups .sNext{ right:0px;}
+.Collections_p .slideGroups .parBd  ul .shop_name{ border-top:1px dashed #ddd; padding-top:5px; height:22px; line-height:22px;}
+.Collections_p .slideGroups .parBd  ul .shop_name a{ float:right; border:1px solid #ddd; padding:0px 5px;}
+.Collections_p .slideGroups .parBd  ul{ overflow:hidden; zoom:1; } 
+.Collections_p .slideGroups .parBd  ul li{ margin:0 8px; padding:10px 5px;display:_inline; height:200px; width:167px; border:1px solid #ddd;}
+.Collections_p .slideGroups .parBd  ul li img{ width:140px; height:130px;} 
+.Collections_p .slideGroups .parBd  ul li .pic{ height:140px; width:167px; text-align:center}
+.Collections_p .slideGroups .parBd  ul li .title a{font-family:"新宋体"; color:#333333; height:36px; line-height:18px; overflow:hidden; display:block}
+.Collections_p .slideGroups .parBd  ul li a:hover{color: #FF6600}
+.Collections_p .slideGroups .parBd  ul li .p_Price{ color: #F30;font-size:16px;}
+/*****************************************用户订单样式属性****************************************/
+.user_center .Order_form_style .Order_form_filter a{ width:130px;}
+/*******************************************用户地址样式属性********************************************************/
+.user_address_style .add_address{ border:1px solid #ddd; position:relative; padding:20px; margin:20px 0px; font-size:14px}
+.user_address_style .add_address .name{ position:absolute; background-color:#ffffff; padding:5px 20px; top:-15px;}
+.user_address_style .add_address table{ line-height:40px; color:#666}
+.user_address_style .add_address table .add_dzbtn{ 
+	border:1px solid #90b830; 
+	margin:5px; 
+	height:32px; 
+	width:60px;
+	color:#FFF;
+	cursor:pointer;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#A4CA4A,endColorStr=#90b830); /*IE*/ 
+	background:-ms-linear-gradient(top, #A4CA4A ,#90b830); /* IE10+ */
+    background:-moz-linear-gradient(top,#A4CA4A,#90b830);/*火狐*/ 
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#A4CA4A), to(#90b830));/*谷歌*/ 
+}
+.user_address_style .add_address table .reset_btn{border:1px solid #ddd; margin:5px;height:32px; width:60px; color:#999; cursor:pointer }
+.user_address_style .add_address table .reset_btn:hover{
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ededed,endColorStr=#ededed); /*IE*/ 
+	background:-ms-linear-gradient(top, #ededed ,#ededed); /* IE10+ */
+    background:-moz-linear-gradient(top,#ededed,#ededed);/*火狐*/ 
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#ededed), to(#ededed));/*谷歌*/ 
+	}
+.user_address_style .add_address table .add_dzbtn:hover{
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#90b830,endColorStr=#90b830); /*IE*/ 
+	background:-ms-linear-gradient(top, #90b830 ,#90b830); /* IE10+ */
+    background:-moz-linear-gradient(top,#90b830,#90b830);/*火狐*/ 
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#90b830), to(#90b830));/*谷歌*/ 
+	}
+.user_address_style .add_address table .label_name{ width:90px; text-align:right;vertical-align:top;}
+.user_address_style .add_address table i{ color:#F30; vertical-align:top; padding:0px 5px;}
+.user_address_style .add_address table .add_text,
+.user_address_style .add_address table textarea,
+.user_address_style .add_address table select{ height:30px; border:1px solid #ddd; padding:0px 5px; color:#666}
+/***地址列表样式属性***/
+.user_address_style .address_prompt{ color:#F90; height:30px; border:1px solid #F93; margin-bottom:10px; line-height:30px; padding:0px 10px;}
+.user_address_style .address_content .user_address .label{ background-color:#ededed; border:1px solid #ddd; text-align:center}
+.user_address_style .address_content .user_address tr{ border-bottom:1px solid #ddd; height:30px; text-align:center; border-left:1px solid #ddd; border-right:1px solid #ddd;}
+.user_address_style .address_content{ margin:20px 0px; position:relative; }
+/************分页样式*****************/
+.user_style .Paging {
+	margin: 30px 0px;
+	height: 50px;
+	padding: 10px;
+}
+.user_style .Pagination {
+	width: 600px;
+	margin: 0 auto
+}
+.user_style .Paging a {
+	color: #999999;
+	margin: 0px 5px;
+	font-size: 14px;
+	padding: 5px 15px;
+	border: 1px solid #ddd;
+}
+.user_style .Paging a:hover, .Inside_pages .Paging a.on {
+	background: #90b830;
+	color: #fff;
+	border: 1px solid #90b830
+}
+.user_style .Paging .p-skip .input-txt {
+	width: 26px;
+	height: 26px;
+	margin: 0 3px;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+/****************************************用户中心我的收藏样式属性******************************************/
+.Favorites_slideTxtBox{ margin:20px 0px;}
+.Favorites_slideTxtBox .hd{ height:40px; line-height:40px; border-bottom:1px solid #ddd; position:relative}
+.Favorites_slideTxtBox .hd li{ 
+    float:left;    
+    -webkit-border-radius:5px 5px 0px 0px ;
+	-moz-border-radius:5px 5px 0px 0px ;
+	border-radius:5px 5px 0px 0px ; 
+	font-size:16px; 
+	cursor:pointer; 
+	padding:0px 20px; 
+	line-height:39px; 
+	height:39px; 
+	border:1px solid #ddd; 
+	margin-left:20px;
+}
+.Favorites_slideTxtBox .hd li.on{border-bottom:2px solid #ffffff; background-color:#FFF}
+.Favorites_slideTxtBox .bd{ padding:10px 0px;}
+.Favorites_slideTxtBox .bd .Number_Favorites{ border:1px solid #ddd; padding:10px; font-size:14px}
+/***************商品收藏样式属性******************/
+.commodity_list .user_title_name{ height:40px; color:#333; line-height:40px;font-size:18px}
+.commodity_list .user_title_name span{ border-bottom:3px solid #F30; display:block; width:100px; line-height:37px; text-align:center}
+.commodity_list li.collect_p{ width:245px; float:left; position:relative}
+.commodity_list li.collect_p .collect_info{ margin:10px;  border:3px solid #ddd;}
+.commodity_list li.collect_p.hover .collect_info{  border:3px solid #90b830}
+.commodity_list li.collect_p .collect_info a{ display:block; color:#333}
+.commodity_list li.collect_p.hover .delete,
+.Order_form_list table td  a{ display:block}
+.commodity_list li.collect_p .delete{ 
+	cursor:pointer; 
+	display:none; 
+	position:absolute; 
+	background: url(../images/search.ele.png) 0px -507px no-repeat #90b830; 
+	color:#FFF; 
+	right:13px; 
+	top:13px; 
+	height:20px; 
+	width:20px; 
+	line-height:20px; 
+	text-align:center
+}
+.commodity_list li.collect_p .collect_info .img_link img{ width:180px; height:180px;}
+.commodity_list li.collect_p .collect_info .name{ overflow:hidden; height:36px; line-height:18px;}
+.commodity_list li.collect_p .collect_info dl{ background:#ddd;padding:5px; border-top:1px dashed #fff}
+.commodity_list li.collect_p.hover dl{ background:#90b830; color:#FFF}
+.commodity_list li.collect_p .collect_info dl dd{ height:30px; line-height:30px}
+.commodity_list li.collect_p .collect_info dl .Price{ font-size:18px; color:#F30; float:left}
+.commodity_list li.collect_p.hover .collect_info a,
+.commodity_list li.collect_p.hover .collect_info dl .Price,
+.commodity_list li.collect_p.hover .collect_info dl .collect_Amount{ color:#FFF}
+.commodity_list li.collect_p .collect_info dl .Price b{ font-size:14px; font-weight:normal;}
+.commodity_list li.collect_p .collect_info dl .collect_Amount{ float:right; color: #F60}
+.commodity_list li.collect_p .buy_btn{ 
+	position:absolute; 
+	width:120px; 
+	height:40px; 
+	line-height:40px;  
+	color:#FFF; 
+	font-size:18px; 
+	text-align:center;	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	left:60px;
+	top:90px;
+	display:none
+}
+.commodity_list li.collect_p.hover .buy_btn{ display:block}
+/**********************************分销样式属性****************************************/
+.fenxiao_style{ margin:20px 0px;}
+.fenxiao_style .shop_sl{border-bottom:1px dashed #ddd; height:40px; line-height:40px; font-size:14px}
+.shop_tixian{ margin:10px 0px; border:1px solid #ddd; padding:10px; line-height:30px; font-size:14px;}
+.shop_tixian .shop_integral span{ padding:0px 10px; color:#F60}
+.shop_tixian .btn_style a{ margin-right:20px; margin-top:10px;}
+.shop_tixian .btn_style a.shopBill_btn{ color:#666666}
+/****列表样式属性****/
+.fenxiao_shops{}
+.fenxiao_shops td{ text-align:center; border:1px solid #ddd; height:30px; padding:5px;}
+.fenxiao_shops thead .label_name{ background-color:#ededed; height:30px; line-height:30px; font-size:14px}
+.fenxiao_shops .shop_logo{ display:block; border:1px solid #ddd; height:80px; width:80px; float:left; margin:10px;}
+.fenxiao_shops .name{ display:block; float:left;  text-align:left; margin-top:10px; width:180px; line-height:30px; overflow:hidden}
+.fenxiao_shops h4{ text-align:left; color:#999; float:left;}
+.fenxiao_shops .detailed_btn{
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	background-color:#F60;
+	color:#ffffff;
+	padding:5px 10px;
+}
+/***********提现记录样式属性**********/
+.tx_Bill_style{ padding:15px;}
+.tx_Bill_style .Bill_style{ width:100%}
+.tx_Bill_style .Bill_style td{ text-align:center; height:30px; line-height:30px; border:1px solid #ddd;}
+.tx_Bill_style .Bill_style .label_name{ height:30px; background-color:#ededed;}
+.tx_Bill_style .Bill_style .Bill_detailed{ color:#F60}
+/************分销商品详细样式数字***********/
+.fenxiao_detailed_style .content_style{ line-height:30px; margin-top:20px;font-size:14px; border:1px solid #ddd;}
+.fenxiao_detailed_style .content_style .title_name{  background-color:#ededed; padding:0px 10px; border-bottom:1px solid #ddd;}
+.fenxiao_detailed_style .content_style li{ padding:5px 10px;}
+.fenxiao_detailed_style .Record_style{ position:relative; border:1px solid #ddd; margin-top:20px;}
+.fenxiao_detailed_style .Record_style span{ background-color:#ededed; border-bottom:1px solid #ddd; border-right:1px solid #ddd; position:absolute; z-index:11; top:0px; font-size:14px; padding:5px 20px;}
+.fenxiao_detailed_style .Record_style .Record_list{text-align:center; height:30px; line-height:30px}
+.fenxiao_detailed_style .Record_style .Record_list .label_name{ background-color:#ededed;border-top:1px solid #ddd; border-bottom:1px solid #ddd; }
+.fenxiao_detailed_style .Record_style .Record_list td{ border-bottom:1px solid #ddd; padding:5px 10px}
+/**********用户账户样式属性*********/
+.user_Account{ 
+	margin-top:50px; 
+	font-size:14px; 
+	height:275px; 
+	padding:20px; 
+	width:384px; 
+	margin-left:auto; 
+	margin-right:auto; 
+	text-align:center; 
+	background:url(../images/Account-bg.png) no-repeat
+;}
+.user_Account .title_name{ font-size:16px; border-bottom:1px dashed #ddd; height:30px; line-height:30px;}
+.user_Account .Balance{ height:240px; color:#666; position:relative}
+.user_Account .Balance b{ color:#F60; font-size:26px}
+.user_Account .Balance a.Recharge_btn{
+	font-size:16px;	
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-align:center;
+	line-height:40px;
+	margin-left: auto;
+	margin-right:auto;
+	display:block;
+	width:80px;
+	height:40px;
+}
+.user_Account .Balance .je_Balance{ padding:60px 0px; height:34px; line-height:34px;}
+.user_Account .Balance .Account_btn{ height:42px; line-height:42px; position: absolute; bottom:0px; width:100%}
+.user_Account .Balance .je_Balance i{	
+    -webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	background-color:#F60;
+	color:#FFF;
+	margin-right:3px;
+	padding:0px 3px;
+	}
+.user_Account .Balance a.Recharge_btn{	
+    border:1px solid #F63;
+    color:#ffffff;
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#F90,endColorStr=#F63); /*IE*/ 
+	background:-ms-linear-gradient(top, #F90 , #F63); /* IE10+ */
+	background:-moz-linear-gradient(top,#F90,#F63);/*火狐*/ 
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#F90), to(#F63));/*谷歌*/ 
+}
+.user_Account .Balance a.withdraw_btn{ color:#666; position:absolute; bottom:0px; right:50px;}
+.select_style a.Recharge_btn{ display:block; margin: 0px 10px; float:left; width:150px;}
+/**************************************产品预订订单样式属性***************************************/
+.Booking_style{ margin:20px 0px;}
+.Booking_style .Note{ line-height:30px; font-size:14px; background-color:#FEF7DE; border:1px solid #FCC894; padding:0px 10px; color: #F79A0F; margin-bottom:20px;}
+.Booking_style .Time_left{ float:right; background-color:#F90; color:#FFF; padding:0px 10px}
+/************************消费记录***********************/
+.Exp_record_style{ margin:20px 0px}
+.Exp_record_style .record_filter{ height:50px; margin-bottom:10px;}
+.Exp_record_style .record_filter a{ 
+	display:block;
+	font-size:14px;    
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	width:100px; 
+	height:40px; 
+	color:#FFF; 
+	background-color:#F90;
+	line-height:40px; 
+	text-align:center; 
+	float:left; 
+	margin-right:20px;
+}
+.Exp_record_style .record_list{ font-family:"新宋体"; text-align:center; }
+.Exp_record_style .record_list tr.content{ border-bottom:1px solid #ddd; border-left:1px solid #ddd; border-right:1px solid #ddd; height:30px;}
+.Exp_record_style .record_list .label_name{ height:30px; background-color:#90b830; color:#FFF;}
+.Exp_record_style .record_list .label_name td{ border:1px solid #90b830;}
+.Exp_record_style .record_list td .xf{ color:#F90}
+.Exp_record_style .record_list td .cz{ color:#363}
+/*********************************个人信息样式属性**************************/
+.Personal_info ul.xinxi{ width:500px; margin-top:30px; float:left; border-right:1px solid #ddd;}
+.Personal_info ul.xinxi li{ height:40px; line-height:40px; padding:5px 0px;font-size:14px;border-bottom:1px dashed #ddd;}
+.Personal_info ul.xinxi li label{ width:80px; float:left; text-align:right;}
+.Personal_info ul.xinxi li .text{ height:30px; padding:3px; background-color:#FFF; border:0px;}
+.Personal_info ul.xinxi li .text.add{ border:1px solid #ddd;}
+.Personal_info ul.xinxi li span{ float:left;  width:300px; height:40px; padding:0px 10px;}
+.Personal_info ul.xinxi.hover .time,
+.Personal_info ul.xinxi.hover .sex{ display:none}
+.Personal_info ul.xinxi.hover .add_time{ display:block; float:left; margin-left:10px;}
+.Personal_info ul.xinxi.hover .add_time select{ border:1px solid #ddd; height:36px; line-height:36px; width:100px; margin-right:10px}
+.Personal_info ul.xinxi.hover .add_sex{ display:block}
+.Personal_info ul.xinxi .add_time,
+.Personal_info ul.xinxi .add_sex{ display:none}
+.Personal_info ul.xinxi .bottom input{ 
+	width:120px; 
+	height:40px; 
+	line-height:40px; 
+	margin-right:20px; 
+	border:0px; 
+	font-size:16px;	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-top:20px;
+	cursor:pointer
+ }
+.Personal_info ul.xinxi .bottom input.modify{ background:#90B830; color:#fff;}
+.Personal_info ul.xinxi .bottom input.confirm{ background:#F60; color:#FFF;}
+.Personal_info .Head_portrait{ width:300px; float:right; margin-top:30px;}
+.Personal_info .Head_portrait .User_avatar{ width:202px; height:202px; padding:2px; border:1px solid #ddd;}
+.Personal_info .Head_portrait .submit{
+	width:120px;
+	border:1px solid #ddd; 
+	margin-top:20px; 
+	background: #fff; 
+	font-size:16px;	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; 
+	height:40px; 
+	line-height:40px;
+	cursor:pointer;
+}

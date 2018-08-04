@@ -1,0 +1,14 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.sky.Bean">
+	<class name="OrderDetail" table="order_detail">
+		<id name="id" column="order_detail_id">
+			<generator class="increment" />
+		</id>
+		<property name="count" />
+		
+		<many-to-one name="order" column="order_id" class="Orders"  lazy="false"/>
+		<many-to-one name="food" column="food_id" class="Food"  lazy="false"/>
+	</class>
+</hibernate-mapping>

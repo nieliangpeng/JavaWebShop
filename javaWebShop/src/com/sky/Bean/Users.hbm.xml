@@ -1,0 +1,27 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.sky.Bean">
+	<class name="Users" table="users">
+		<id name="id" column="user_id">
+			<generator class="increment" />
+		</id>
+		<property name="user_username" />
+		<property name="user_passwd" />
+		<property name="user_email" />
+		<property name="user_telephone" />
+		<property name="user_address" />
+		<property name="user_image" />
+		<property name="status" />
+		<property name="validateCode" />
+		<property name="registerTime" />
+		<set name="addressSet" cascade="delete" inverse="true"  lazy="false">
+			<key column="user_id" />
+			<one-to-many class="Address" />
+		</set>
+		<set name="orderSet" cascade="delete" inverse="true"  lazy="false">
+			<key column="user_id" />
+			<one-to-many class="Orders" />
+		</set>
+	</class>
+</hibernate-mapping>

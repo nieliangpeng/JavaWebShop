@@ -1,0 +1,17 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.sky.Bean">
+	<class name="FoodType" table="food_type">
+		<id name="id" column="type_id">
+			<generator class="increment" />
+		</id>
+		<property name="typeName" column="type_name"/>
+		
+		<set name="foodSet" cascade="delete" inverse="true" lazy="false" >
+			<key column="Type_id" />
+			<one-to-many class="Food" />
+		</set>
+		
+	</class>
+</hibernate-mapping>
